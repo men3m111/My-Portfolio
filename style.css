@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,600;1,600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+nav {
+  z-index: 999;
+}
+.nav-link {
+    color: #9C9C9C;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.nav-link:hover {
+    color: #fff;
+}
+.my-name {
+    /*font-size: 2rem;
+    *//*letter-spacing: 0px;
+    */font-size: 37px;
+    border-right: 10px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1.5s steps(25),    cursor 0.4s step-end infinite alternate;
+    -webkit-animation: typing 1.5s steps(25),    cursor 0.4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+.me {
+  font-weight: 300;  
+}
+.header-btn {
+    box-shadow: 0 4px 10px 0 #62ba1bab;
+    transition: 
+        background 0.3s,
+        color 0.3s,
+        box-shadow 0.3s;
+}
+.header-btn:hover {
+    background: #62ba1b;
+    color: #fff;
+    box-shadow: 0 8px 24px 0 #62ba1b70;
+}
+.langs {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 15s linear infinite;
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    #education .card {
+      transition:
+            0.3s,         background 0.3s,        color 0.3s,        box-shadow 0.3s;
+      -webkit-transition: 0.3s,         background 0.3s,        color 0.3s,        box-shadow 0.3s;;
+      -moz-transition: 0.3s,         background 0.3s,        color 0.3s,        box-shadow 0.3s;;
+      -ms-transition: 0.3s,         background 0.3s,        color 0.3s,        box-shadow 0.3s;;
+      -o-transition: 0.3s,         background 0.3s,        color 0.3s,        box-shadow 0.3s;;
+}
+    #education .card:hover {
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+      background: #fff;
+      box-shadow: 0 8px 24px 14px #fff;
+
+}
+
+@media (max-width: 767px) {
+  .h-content {
+    transform: translateX(-70px);
+    -webkit-transform: translateX(-70px);
+    -moz-transform: translateX(-70px);
+    -ms-transform: translateX(-70px);
+    -o-transform: translateX(-70px);
+}
+}
+@media (max-width: 600px) {
+  .h-content {
+    transform: translateX(-130px);
+    -webkit-transform: translateX(-130px);
+    -moz-transform: translateX(-130px);
+    -ms-transform: translateX(-130px);
+    -o-transform: translateX(-130px);
+  }
+  .my-name {
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+}
+}
+
+
+.skill-blur {
+    position: relative;
+    overflow: hidden;
+}
+.skill-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(1px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.skill-overlay i {
+    color: #888;
+}
+
+.skill {
+    box-shadow: 0 4px 24px 0 #9C9C9C;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.skill:hover {
+  background-color: #123;
+  color: #fff;
+}
+.skill-github:hover .fa-github {
+  color: #fff !important;
+}
+
+#projects .skill:hover {
+    background-color: #123;
+    color: #fff;
+}
+
+.carousel-control-next,
+        .carousel-control-prev {
+            height: 50px !important;
+            background-color: transparent !important;
+            margin-top: 170px !important;
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            color: #000 !important;
+            margin-top: 50px !important;
+            margin-left: 20px !important;
+            /* background-color: rgb(0,0,0,0.9) !important; */
+            border-radius: 50% !important;
+            
+        }
+        .carousel-control-prev-icon {
+            margin-left: -70px !important;
+        }
+        .sliding {
+          width: 30px !important;
+          height: 1px !important;
+          background-color: #000 !important;
+          border-top: 2px solid #000 !important;
+          border-bottom: 2px solid #000 !important;
+        }
+
+
+.proj-btn {
+  transition: 0.3s !important;
+  -webkit-transition: 0.3s !important;
+  -moz-transition: 0.3s !important;
+  -ms-transition: 0.3s !important;
+  -o-transition: 0.3s !important;
+}
+.proj-btn:hover {
+  transform: translateY(-5px) !important;
+  -webkit-transform: translateY(-5px) !important;
+  -moz-transform: translateY(-5px) !important;
+  -ms-transform: translateY(-5px) !important;
+  -o-transform: translateY(-5px) !important;
+  background-color: #fff !important;
+  border: 2px #123 solid !important;
+}
+.proj-btn:hover a,
+.proj-btn:hover i {
+    color: #123 !important;
+}
