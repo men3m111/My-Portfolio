@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
@@ -17,7 +17,8 @@
     
     <header style="background-color: #0B0B0B;" class="min-vh-100 mb-5" id="home">
         <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid d-flex justify-content-between align-items-center p-0 mb-5 position-fixed">
-            <div class="container d-flex p-2 " style="background-color: #1B1B1B; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
+            <div class="container d-flex p-2 nav-div mx-auto" style="background-color: #1B1B1B; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
+                <a class="navbar-brand" href="#">Men3m</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-light"></i></span>
                 </button>
@@ -39,15 +40,15 @@
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item ms-5">
-                            <a class="nav-link" href="#">Contact me</a>
+                            <a class="nav-link" href="#contact-me">Contact me</a>
                         </li>
                     </ul>
                 </div>
                 
             </div>
         </nav>
-        <div class="h-content container p-0 text-light fw-bold row offset-1 align-items-center justify-content-between z-3 ">
-            <div class="col-md-8  p-4 align-self-center text-center justify-content-center offset-2" style="transform: translateY(50%);">
+        <div class="h-content container p-0 text-light fw-bold row offset-1 align-items-center justify-content-between z-3 mx-auto">
+            <div class="h-content-text col-md-8 p-4 align-self-center text-center justify-content-center mx-auto" style="transform: translateY(50%);">
                 <div style="width: fit-content;" class="mx-auto">
                     <h1 class="my-name mb-4">Mohamed Abdelmoneim</h1>
                 </div>
@@ -59,12 +60,12 @@
         </div>
     </header> 
     <section id="about" class="container-fluid" style="background-color: #F9FAFB;">
-        <div class="col align-items-center container justify-content-center">
-            <div class="mb-4 offset-5" style="width: fit-content;">
+        <div class="col align-items-center container justify-content-center mx-auto">
+            <div class="mb-4 mx-auto" style="width: fit-content;">
                 <h2 class="fw-bold mt-5" style="border-bottom: #000 3px solid;">About Me</h2>
             </div>
             <div class="row flex-wrap-reverse">
-                <div class="fs-4 col-md-7">
+                <div class="fs-4 col-md-7 ">
                     <p style="color: #123; line-height: 1.7;">
                         I’m Mohamed Abdelmoneim, an
                         Accounting student at the Faculty of
@@ -89,8 +90,8 @@
         </div>
     </section>
     <section id="education" class="mt-5 text-center mb-5 container-fluid min-vh-100 p-5" style="background-color: #0B0B0B;">
-        <div class="offset-lg-0 offset-md-2 offset-sm-2">
-            <div style="width: fit-content; color: #fff;" class="offset-5 mb-5 mt-2">
+        <div class="offset-lg-0 offset-md-2 offset-sm-2 edu ">
+            <div style="width: fit-content; color: #fff;" class="offset-5  mb-5">
                 <h2 class="fs-1" style="border-bottom: #fff 3px solid;">Education</h2>
             </div>
             <div class="cards-group row row-cols-1 row-cols-sm-4 gap-5 ms-5">
@@ -125,7 +126,7 @@
         </div>
     </section>
     <section id="skills">
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column skills-sec">
             <div class="mb-4 mx-auto" style="width: fit-content;">
                 <h2 class="fw-bold mt-5" style="border-bottom: #000 3px solid;">Skills</h2>
             </div>
@@ -183,116 +184,159 @@
                 </div>
             </div>
         </div>
+    </section>
+    
 
 
     <section id="projects" class="container-fluid py-5 min-vh-100" style="background-color: #0B0B0B;">
         <div style="width: fit-content;" class="mx-auto mb-5 text-light">
             <h2 style="border-bottom: #fff 2px solid;">Projects</h2>
         </div>
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators" style="top: -20px;">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: #fff;"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: #fff;"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: #fff;"></button>
-  </div>
-  <div class="carousel-inner container">
-    <div class="carousel-item active">
-        <div class="card h-100 mx-auto pb-3" style="width: 50%; border-top-left-radius: 25px; border-top-right-radius: 25px;">
-            <div>
-                <img src="./Images/portfolio figma.png" class="d-block" style="width: 100%; border-top-left-radius: 25px; border-top-right-radius: 25px;" alt="..." height="300px">
-                <h3 class="ms-4 px-2">Portfolio website - figma design</h3>
-                <div class="px-5">
-                                <p>Developed with:</p>
-                                <div class="d-flex gap-2 mb-3">
-                                    <div class="skill border px-3 py-2 text-center d-flex align-items-center gap-3 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
-                                        HTML
-                                    </div>
-                                    <div class="skill border px-3 py-2 text-center d-flex align-items-center gap-3 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
-                                        CSS
-                                    </div>
-                                    <div class="skill border px-3 py-2 text-center d-flex align-items-center gap-3 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-js fa-2x" style="color: #f0db4f;"></i>
-                                        JavaScript
-                                    </div>
-                                </div>
-                                <button class="proj-btn offset-5 px-4 py-2 border-0" style="background-color: #123;"><a href="#" class="text-decoration-none me-2 text-light">See it</a><i class="fa-solid fa-arrow-right-long text-light"></i></button>
-                            </div>
+        <div id="carouselExampleIndicators" class="carousel pro-slide mx-auto ">
+        <div class="carousel-indicators gap-2" style="top: -20px;">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: #fff;"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: #fff;"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: #fff;"></button>
+        </div>
+        <div class="carousel-inner container">
+            <div class="carousel-item active">
+                <div class="w-50 card h-100 mx-auto pb-3" style="width: 50%; border-top-left-radius: 25px; border-top-right-radius: 25px;">
+                    <div class="w-100">
+                        <img src="./Images/portfolio figma.png" class="d-block" style="width: 100%; border-top-left-radius: 25px; border-top-right-radius: 25px;" alt="..." height="300px">
+                        <h3 class="ms-4 px-2">Portfolio website - figma design</h3>
+                        <div class="px-xl-4">
+                                        <p>Developed with:</p>
+                                        <div class="d-flex mb-3 gap-xl-1 gap-1 langus">
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
+                                                HTML
+                                            </div>
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
+                                                CSS
+                                            </div>
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-js fa-2x" style="color: #f0db4f;"></i>
+                                                JavaScript
+                                            </div>
+                                        </div>
+                                        <a href="https://men3m111.github.io/Personal-Page/" target="_blank"
+                                        class="btn offset-5 px-4 py-2 text-light see-it"
+                                        style="background-color:#123; border:0; position: relative; z-index: 10;">
+                                        See it <i class="fa-solid fa-arrow-right-long text-light"></i>
+                                        </a>                      
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
-            <div>
-                <h2></h2>
+            <div class="carousel-item">
+            <div class="w-50 card h-100 mx-auto pb-3" style="width: 50%; border-top-left-radius: 25px; border-top-right-radius: 25px;">
+                    <div>
+                        <img src="./Images/projects 2.png" class="d-block" style="width: 100%; border-top-left-radius: 25px; border-top-right-radius: 25px;" alt="..." height="300px">
+                        <h3 class="px-5">Landing Page - figma design</h3>
+                        <div class="px-xl-4">
+                                        <p>Developed with:</p>
+                                        <div class="d-flex gap-2 mb-3 langus">
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
+                                                HTML
+                                            </div>
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
+                                                CSS
+                                            </div>
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-bootstrap fa-2x" style="color: #7952b3;"></i>
+                                                Bootstrap
+                                            </div>
+                                        </div>
+                                        <a href="https://men3m111.github.io/bootstrap-project/" target="_blank"
+                                        class="btn offset-5 px-4 py-2 text-light see-it"
+                                        style="background-color:#123; border:0; position: relative; z-index: 10;">
+                                        See it <i class="fa-solid fa-arrow-right-long text-light"></i>
+                                        </a>  
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+            <div class="w-50 card mx-auto pb-3" style="width: 50%; border-top-left-radius: 25px; border-top-right-radius: 25px;">
+                    <div>
+                        <img src="./Images/screencapture-127-0-0-1-5502-index-html-2025-08-20-11_55_12.png" class="d-block third-img" style="width: 100%; border-top-left-radius: 25px; border-top-right-radius: 25px;" alt="..." height="300px">
+                        <h3 class="ms-4 px-2">Admin Dashboard</h3>
+                        <div class="px-xl-4">
+                                        <p>Developed with:</p>
+                                        <div class="d-flex gap-2 mb-3 langus">
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
+                                                HTML
+                                            </div>
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
+                                                CSS
+                                            </div>
+                                            <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                                <i class="fa-brands fa-js fa-2x" style="color: #f0db4f;"></i>
+                                                JavaScript
+                                            </div>
+                                        </div>
+                                        <a href="https://men3m111.github.io/Admin-dashboard/" target="_blank"
+                                        class="btn offset-5 px-4 py-2 text-light see-it"
+                                        style="background-color:#123; border:0; position: relative; z-index: 10;">
+                                        See it <i class="fa-solid fa-arrow-right-long text-light"></i>
+                                        </a>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
-    </div>
-    <div class="carousel-item">
-      <div class="card mx-auto pb-3" style="width: 50%; border-top-left-radius: 25px; border-top-right-radius: 25px;">
-            <div>
-                <img src="./Images/projects 2.png" class="d-block" style="width: 100%; border-top-left-radius: 25px; border-top-right-radius: 25px;" alt="..." height="300px">
-                <h3 class="px-5">Landing Page - figma design</h3>
-                <div class="px-5">
-                                <p>Developed with:</p>
-                                <div class="d-flex gap-2 mb-3">
-                                    <div class="skill border px-3 py-2 text-center d-flex align-items-center gap-3 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
-                                        HTML
-                                    </div>
-                                    <div class="skill border px-3 py-2 text-center d-flex align-items-center gap-3 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
-                                        CSS
-                                    </div>
-                                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-bootstrap fa-2x" style="color: #7952b3;"></i>
-                                        Bootstrap
-                                    </div>
-                                </div>
-                                <button class="proj-btn offset-5 px-4 py-2 border-0" style="background-color: #123;"><a href="#" class="text-decoration-none me-2 text-light">See it</a><i class="fa-solid fa-arrow-right-long text-light"></i></button>
-                            </div>
-            </div>
-            <div>
-                <h2></h2>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </section>
+    <section id="contact-me container-fluid">
+        <div class="container">
+            <div class="d-flex flex-column skills-sec">
+                <div class="mb-4 mx-auto" style="width: fit-content;">
+                    <h2 class="fw-bold mt-5" style="border-bottom: #000 3px solid;">Contact Me</h2>
+                </div>
+                <div>
+                    <div class="d-flex justify-content-evenly flex-wrap mb-5 gap-5">
+                        <div style="width: 250px;">
+                            <a href="https://www.instagram.com/me.n.3m?igsh=MjkzNnpqY3M5azRj" target="_blank" style="color:#E4405F; width: 250px;" class="contact border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center text-decoration-none">
+                                <i class="fa-brands fa-2x fa-instagram me-2"></i>Instagram
+                            </a>
+                        </div>
+                            <a href="https://www.linkedin.com/in/mohamed-abdelmoneim-284854292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="color:#0A66C2; width: 250px;" class="contact border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center text-decoration-none">
+                                <i class="fa-brands fa-2x fa-linkedin me-2"></i>Linked In
+                            </a>
+                            <a href="https://www.facebook.com/share/19iBcPfG4g/" target="_blank" style="color:#1877F2; width: 250px;" class="contact border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center text-decoration-none">
+                                <i class="fa-brands fa-2x fa-facebook me-2"></i>Facebok
+                            </a>
+                    </div>
+                    <div class="d-flex justify-content-evenly flex-wrap mb-5 gap-5">
+                            <a href="https://x.com/Men3m2006" target="_blank" style="color:#000000; width: 250px;" class="contact border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center text-decoration-none">
+                                <i class="fa-brands fa-2x fa-x-twitter me-2"></i>Twitter (X)
+                            </a>
+                            <a href="https://wa.me/qr/MUX7IFEOUBXPO1" target="_blank" style="color:#25D366; width: 250px;" class="contact border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center text-decoration-none">
+                                <i class="fa-brands fa-2x fa-whatsapp me-2"></i>WhatsApp
+                            </a>
+                            <a href="https://github.com/men3m111" target="_blank" style="color:#181717; width: 250px;" class="contact border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center text-decoration-none">
+                                <i class="fa-brands fa-2x fa-github me-2"></i>Github
+                            </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="carousel-item">
-      <div class="card mx-auto pb-3" style="width: 50%; border-top-left-radius: 25px; border-top-right-radius: 25px;">
-            <div>
-                <img src="./Images/screencapture-127-0-0-1-5502-index-html-2025-08-20-11_55_12.png" class="d-block" style="width: 100%; border-top-left-radius: 25px; border-top-right-radius: 25px;" alt="..." height="300px">
-                <h3 class="ms-4 px-2">Admin Dashboard</h3>
-                <div class="px-5">
-                                <p>Developed with:</p>
-                                <div class="d-flex gap-2 mb-3">
-                                    <div class="skill border px-3 py-2 text-center d-flex align-items-center gap-3 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
-                                        HTML
-                                    </div>
-                                    <div class="skill border px-3 py-2 text-center d-flex align-items-center gap-3 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
-                                        CSS
-                                    </div>
-                                    <div class="skill border px-3 py-2 text-center d-flex align-items-center gap-3 justify-content-center" style="width: 150px;">
-                                        <i class="fa-brands fa-js fa-2x" style="color: #f0db4f;"></i>
-                                        JavaScript
-                                    </div>
-                                </div>
-                                <button class="proj-btn offset-5 px-4 py-2 border-0" style="background-color: #123;"><a href="#" class="text-decoration-none me-2 text-light">See it</a><i class="fa-solid fa-arrow-right-long text-light"></i></button>
-                            </div>
-            </div>
-            <div>
-                <h2></h2>
-            </div>
-        </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
     </section>
 
 

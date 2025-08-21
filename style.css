@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,600;1,600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  /* padding: 0 !important; */
+}
 body {
     font-family: 'Montserrat';
     font-style: normal;
@@ -92,23 +96,8 @@ nav {
 
 }
 
-@media (max-width: 767px) {
-  .h-content {
-    transform: translateX(-70px);
-    -webkit-transform: translateX(-70px);
-    -moz-transform: translateX(-70px);
-    -ms-transform: translateX(-70px);
-    -o-transform: translateX(-70px);
-}
-}
+
 @media (max-width: 600px) {
-  .h-content {
-    transform: translateX(-130px);
-    -webkit-transform: translateX(-130px);
-    -moz-transform: translateX(-130px);
-    -ms-transform: translateX(-130px);
-    -o-transform: translateX(-130px);
-  }
   .my-name {
     transform: translateX(-10px);
     -webkit-transform: translateX(-10px);
@@ -137,7 +126,8 @@ nav {
     color: #888;
 }
 
-.skill {
+.skill,
+.contact {
     box-shadow: 0 4px 24px 0 #9C9C9C;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -145,11 +135,16 @@ nav {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-.skill:hover {
+.skill:hover,
+.contact:hover {
   background-color: #123;
   color: #fff;
 }
-.skill-github:hover .fa-github {
+.contact:hover a {
+  color: #fff;
+}
+.skill-github:hover .fa-github,
+.contact-github:hover .fa-github {
   color: #fff !important;
 }
 
@@ -204,4 +199,194 @@ nav {
 .proj-btn:hover a,
 .proj-btn:hover i {
     color: #123 !important;
+}
+  #projects {
+    width: 100% !important;
+  }
+  .pro-slide {
+    width: 80% !important;
+  }
+  .see-it:hover {
+    color: #123 !important;
+    background-color: #fff !important;
+    border: 2px #123 solid !important;
+  }
+  .see-it:hover i {
+    color: #123 !important;
+  }
+
+.contact:hover {
+  color: #fff !important;
+}
+
+  @media (max-width: 1250px){
+    #projects .card {
+    margin: 0 auto !important;
+    height: 50% !important;
+    width: 75% !important;
+    padding-bottom: 20px;
+  }
+  #projects .card img {
+    height: 40% !important;
+  }
+  .third-img {
+    height: 30% !important;
+  }
+  }
+@media (max-width: 900px) {
+  .skill {
+    font-size: 12px !important;
+    padding: 10px 0 !important;
+    gap: 0p !important;
+  }
+  #projects .card {
+    margin: 0 auto !important;
+    height: 50% !important;
+    width: 75% !important;
+    padding-bottom: 20px;
+  }
+  #projects .card img {
+    height: 40% !important;
+  }
+  .third-img {
+    height: 30% !important;
+  }
+  
+}
+@media (max-width: 800px) {
+  #projects .card {
+    margin: 0 auto !important;
+    height: 50% !important;
+    width: 75% !important;
+    padding-bottom: 20px;
+  }
+  #projects .card img {
+    height: 40% !important;
+  }
+  .third-img {
+    height: 30% !important;
+  }
+  #about img {
+    width: 300px !important;
+  }
+}
+
+@media(max-width: 575.98px) {
+  header nav {
+    transform: translateX(10px) !important;
+    width: 95% !important;
+    -webkit-transform: translateX(10px) !important;
+    -moz-transform: translateX(10px) !important;
+    -ms-transform: translateX(10px) !important;
+    -o-transform: translateX(10px) !important;
+}
+  header nav .nav-div {
+    width: 100% !important;
+  }
+  .h-content h1 {
+    width: 100%;
+  }
+  .h-content .h-content-text {
+    margin-left: 100px;
+  }
+  .my-name {
+    margin-left: 5px !important;
+    font-size: 25px !important;
+  }
+  .edu h2 {
+    margin-left: 20px !important;
+  }
+  #education {
+    width: 100%;
+    /* transform: translateX(-20px); */
+    margin-right: 0 !important;
+    /* -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px); */
+}
+  .edu {
+    transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -o-transform: translateX(-30px);
+    width: 105% !important;
+}
+  #projects .card {
+    margin: 0 auto !important;
+    height: 50% !important;
+    width: 95% !important;
+    padding-bottom: 20px;
+  }
+  #projects .card img {
+    height: 40% !important;
+  }
+  .third-img {
+    height: 30% !important;
+  }
+  #skills {
+    width: 100%;
+    overflow: hidden;
+  }
+  .carousel-control-next-icon {
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
+}
+}
+
+@media (max-width: 383px) {
+  .my-name {
+    margin-left: 0 !important;
+    font-size: 22px !important;
+  }
+  #projects .card {
+    margin: 0 auto !important;
+    height: 50% !important;
+    width: 95% !important;
+    padding-bottom: 20px;
+    gap: 0px !important;
+  }
+  #projects .card img {
+    height: 40% !important;
+  }
+  #projects .card h3 {
+    font-size: 18px;
+  }
+  .third-img {
+    height: 30% !important;
+  }
+  .langus {
+    gap: 0 !important;
+  }
+  .langus .skill{
+    padding: 0 !important;
+    flex-direction: column;
+  }
+  .proj-btn {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 359.8px) {
+  header nav {
+      transform: translateX(10px) !important;
+      width: 90% !important;
+      -webkit-transform: translateX(10px) !important;
+      -moz-transform: translateX(10px) !important;
+      -ms-transform: translateX(10px) !important;
+      -o-transform: translateX(10px) !important;
+  }
+  #about img {
+    width: 280px !important;
+    /* width: 200px !important; */
+  }
+  /* .carousel-control-prev-icon {
+    width: 16px !important;
+  } */
+  .proj-btn {
+    margin-left: 30px !important;
+  }
 }
