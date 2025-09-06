@@ -269,6 +269,9 @@ nav {
   #about img {
     width: 300px !important;
   }
+  .bi-typescript {
+    font-size: 16px !important;
+  }
 }
 
 @media(max-width: 575.98px) {
@@ -390,3 +393,4 @@ nav {
     margin-left: 30px !important;
   }
 }
+
