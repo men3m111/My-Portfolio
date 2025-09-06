@@ -6,6 +6,7 @@
     <title>My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
     <style>
         li {
@@ -91,7 +92,7 @@
     </section>
     <section id="education" class="mt-5 text-center mb-5 container-fluid min-vh-100 p-5" style="background-color: #0B0B0B;">
         <div class="offset-lg-0 offset-md-2 offset-sm-2 edu ">
-            <div style="width: fit-content; color: #fff;" class="offset-5  mb-5">
+            <div style="width: fit-content; color: #fff;" class=" offset-lg-5 offset-sm-3 offset-3 mb-5">
                 <h2 class="fs-1" style="border-bottom: #fff 3px solid;">Education</h2>
             </div>
             <div class="cards-group row row-cols-1 row-cols-sm-4 gap-5 ms-5">
@@ -125,62 +126,58 @@
             </div>
         </div>
     </section>
-    <section id="skills">
-        <div class="d-flex flex-column skills-sec">
-            <div class="mb-4 mx-auto" style="width: fit-content;">
-                <h2 class="fw-bold mt-5" style="border-bottom: #000 3px solid;">Skills</h2>
+    <section id="skills" class="mb-5">
+        <div class="container row row-cols-sm-3 row-cols-1 text-center gap-5 justify-content-center align-items-center mx-auto">
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col" style="width: 250px;">
+                <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
+                HTML
             </div>
-            <div>
-                <div class="d-flex justify-content-evenly flex-wrap mb-5 gap-5">
-                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center" style="width: 250px;">
-                        <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
-                        HTML
-                    </div>
-                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center" style="width: 250px;">
-                        <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
-                        CSS
-                    </div>
-                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center" style="width: 250px;">
-                        <i class="fa-brands fa-js fa-2x" style="color: #f0db4f;"></i>
-                        JavaScript
-                    </div>
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col" style="width: 250px;">
+                <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
+                CSS
+            </div>
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col" style="width: 250px;">
+                <i class="fa-brands fa-js fa-2x" style="color: #f0db4f;"></i>
+                JavaScript
+            </div>
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col" style="width: 250px;">
+                <i class="fa-brands fa-bootstrap fa-2x" style="color: #7952b3;"></i>
+                Bootstrap
+            </div>
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col" style="width: 250px;">
+                <i class="fa-brands fa-sass fa-2x" style="color: #cc6699;"></i>
+                SSAS
+            </div>
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col" style="width: 250px;">
+                <i class="fa-brands fa-github fa-2x" style="color: #333;"></i>
+                Github
+            </div>
+            <div class="skill border px-5 pt-3 pb-2 text-center d-flex align-items-center gap-2 justify-content-center col position-relative skill-blur" style="width: 250px;">
+                <i class="bi bi-typescript" style="color: #3178C6; font-size: 27px;"></i>
+                TypeScript
+                <div class="skill-overlay">
+                    <i class="fa-solid fa-hourglass fa-2x"></i>
                 </div>
-                <div class="d-flex justify-content-evenly flex-wrap mb-5 gap-5">
-                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center" style="width: 250px;">
-                        <i class="fa-brands fa-bootstrap fa-2x" style="color: #7952b3;"></i>
-                        Bootstrap
-                    </div>
-                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center" style="width: 250px;">
-                        <i class="fa-brands fa-sass fa-2x" style="color: #cc6699;"></i>
-                        SSAS
-                    </div>
-                    <div class="skill skill-github border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center" style="width: 250px;">
-                        <i class="fa-brands fa-github fa-2x" style="color: #333;"></i>
-                        Github
-                    </div>
+            </div>
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col position-relative skill-blur" style="width: 250px;">
+                <i class="fa-brands fa-react fa-2x" style="color: #61dafb;"></i>
+                React
+                <div class="skill-overlay">
+                    <i class="fa-solid fa-hourglass fa-2x"></i>
                 </div>
-                <div class="d-flex justify-content-evenly flex-wrap mb-5 gap-5">
-                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center position-relative skill-blur" style="width: 250px;">
-                        <i class="fa-brands fa-react fa-2x" style="color: #61dafb;"></i>
-                        React
-                        <div class="skill-overlay">
-                            <i class="fa-solid fa-hourglass fa-2x"></i>
-                        </div>
-                    </div>
-                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center position-relative skill-blur" style="width: 250px;">
-                        <i class="fa-brands fa-node-js fa-2x" style="color: #3c873a;"></i>
-                        Node js
-                        <div class="skill-overlay">
-                            <i class="fa-solid fa-hourglass fa-2x"></i>
-                        </div>
-                    </div>
-                    <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center position-relative skill-blur" style="width: 250px;">
-                        <i class="fa-solid fa-leaf fa-2x" style="color: #47a248;"></i>
-                        MongoDB
-                        <div class="skill-overlay">
-                            <i class="fa-solid fa-hourglass fa-2x"></i>
-                        </div>
-                    </div>
+            </div>
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col position-relative skill-blur" style="width: 250px;">
+                <i class="fa-brands fa-node-js fa-2x" style="color: #3c873a;"></i>
+                Node js
+                <div class="skill-overlay">
+                    <i class="fa-solid fa-hourglass fa-2x"></i>
+                </div>
+            </div>
+            <div class="skill border px-5 py-3 text-center d-flex align-items-center gap-2 justify-content-center col position-relative skill-blur" style="width: 250px;">
+                <i class="fa-solid fa-leaf fa-2x" style="color: #47a248;"></i>
+                MongoDB
+                <div class="skill-overlay">
+                    <i class="fa-solid fa-hourglass fa-2x"></i>
                 </div>
             </div>
         </div>
@@ -197,6 +194,7 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: #fff;"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: #fff;"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: #fff;"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="background-color: #fff;"></button>
         </div>
         <div class="carousel-inner container">
             <div class="carousel-item active">
@@ -267,6 +265,37 @@
                         <img src="./Images/screencapture-127-0-0-1-5502-index-html-2025-08-20-11_55_12.png" class="d-block third-img" style="width: 100%; border-top-left-radius: 25px; border-top-right-radius: 25px;" alt="..." height="300px">
                         <h3 class="ms-4 px-2">Admin Dashboard</h3>
                         <div class="px-xl-4">
+                            <p>Developed with:</p>
+                            <div class="d-flex gap-2 mb-3 langus">
+                                <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                    <i class="fa-brands fa-html5 fa-2x" style="color: #e34c26;"></i>
+                                    HTML
+                                </div>
+                                <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                    <i class="fa-brands fa-css3-alt fa-2x" style="color: #264de4;"></i>
+                                    CSS
+                                </div>
+                                <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
+                                    <i class="fa-brands fa-js fa-2x" style="color: #f0db4f;"></i>
+                                    JavaScript
+                                </div>
+                            </div>
+                            <a href="https://men3m111.github.io/Admin-dashboard/" target="_blank"
+                            class="btn offset-5 px-4 py-2 text-light see-it"
+                            style="background-color:#123; border:0; position: relative; z-index: 10;">
+                            See it <i class="fa-solid fa-arrow-right-long text-light"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+            <div class="w-50 card mx-auto pb-3" style="width: 50%; border-top-left-radius: 25px; border-top-right-radius: 25px;">
+                    <div>
+                        <img src="./Images/screencapture-127-0-0-1-5502-index-html-2025-08-20-11_55_12.png" class="d-block third-img" style="width: 100%; border-top-left-radius: 25px; border-top-right-radius: 25px;" alt="..." height="300px">
+                        <h3 class="ms-4 px-2">Admin Dashboard</h3>
+                        <div class="px-xl-4">
                                         <p>Developed with:</p>
                                         <div class="d-flex gap-2 mb-3 langus">
                                             <div class="skill border px-xl-3 px-lg-1 py-2 text-center d-flex align-items-center gap-1 justify-content-center" style="width: 150px;">
@@ -303,7 +332,7 @@
         </button>
         </div>
     </section>
-    <section id="contact-me container-fluid">
+    <section id="contact-me">
         <div class="container">
             <div class="d-flex flex-column skills-sec">
                 <div class="mb-4 mx-auto" style="width: fit-content;">
